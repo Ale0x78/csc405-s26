@@ -1,0 +1,7 @@
+services:
+  whois:
+    build:
+      context: .
+      imagefile: Dockerfile
+    ports:
+      - 127.0.0.1:3232:80
